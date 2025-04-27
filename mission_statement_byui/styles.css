@@ -1,0 +1,62 @@
+body {
+    font-size: 20px;
+    font-family: 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.content {
+    max-width: 600px;
+    margin: 40px auto;
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border: 1px solid black;
+}
+
+.page-header h1,
+.page-header h2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1.5;
+}
+
+.page-header h1 {
+    margin-bottom: 0px;
+}
+
+.page-header h2 {
+    color: #006EB6;
+    font-size: medium;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 50px;
+}
+
+main p {
+    text-align: left;
+    line-height: 1.5;
+    margin: 10px 0;
+    margin-top: 20px;
+}
+
+main li {
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+.objective-list {
+    list-style-type: decimal;
+    text-align: left;
+}
+
+footer {
+    margin-top: 20px;
+}
+
+footer .logo {
+    width: 150px;
+    height: auto;
+    margin-top: 30px;
+}
