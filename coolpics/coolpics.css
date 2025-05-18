@@ -11,7 +11,10 @@ img {
     height: 250px;
     width: 250px;
     object-fit: cover;
+    border: 1px solid white;
+    box-shadow: 0 4px 8px black;
 }
+
 
 header {
     background-color: rgb(82, 71, 157);
@@ -67,6 +70,45 @@ footer p {
     padding: 20px;
 }
 
+.hide {
+    display: none;
+}
+
+dialog {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); 
+    padding: 1rem;
+    position: relative;
+}
+
+dialog img {
+    margin: 0 auto;
+    margin-top: 80px;
+    width: 380px;
+    height: auto;
+    display: block;
+    z-index: 3;
+}
+
+.close-viewer {
+    position: absolute;
+    top: 1.5rem;  
+    right: 1.5rem;
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 10;
+}
+
+body.modal-open {
+    overflow: hidden;
+    height: 100vh;
+}
+
+
 @media screen and (min-width: 700px) {
     .gallery {
         display: grid;
@@ -83,6 +125,10 @@ footer p {
         display: inline-block;
         margin-bottom: 0;
     }
+
+    dialog img {
+        width: 500px;
+    }
 }
 
 @media screen and (min-width: 1000px) {
@@ -90,7 +136,12 @@ footer p {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
+
     .menu-button {
         display: none;
+    }
+
+    dialog img {
+        width: 700px;
     }
 }
