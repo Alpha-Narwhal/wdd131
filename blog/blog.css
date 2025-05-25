@@ -123,3 +123,7 @@ body {
 .skiptocontent a:focus {
     top: 0;
 }
+
+.footer {
+    margin-top: 75px;
+}
