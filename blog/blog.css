@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
 :root {
   --gold: #EFC69B;
   --red: #AF1B3F;
@@ -40,14 +42,17 @@ body {
 
 .main {
     display: grid;
-    grid-template-columns: 2fr .5fr;
+    grid-template-columns: 2fr 1fr;
     grid-template-rows: auto;
 }
 
-.post1 {
+#posts-container {
+    grid-column: 1 / 2;
+}
+
+.post {
     display: grid;
     grid-template-columns: 35% 65%;
-    grid-row: 1/2;
     margin-top: 30px;
 }
 
@@ -58,54 +63,32 @@ body {
     grid-row: 1/3;
 }
 
-.details1 {
-    text-align: right;
-    padding-right: 20px;
-    border-right: 2px solid var(--gold);
-}
-
-.book1 {
-    padding-left: 20px;
-}
-
-.book1 h2 {
-    color: var(--red);
-}
-
-.book1 img {
-    display: block;
-    margin: 0 auto;
-    width: 200px;
-    height: auto;
-    padding-top: 18px;
-    padding-bottom: 18px;
-}
-
-.post2 {
-    display: grid;
-    grid-template-columns: 35% 65%;
-    grid-row: 2/3;
-    margin-top: 30px;
-}
-
-.details2 {
+.details {
     text-align: right;
     padding: 20px;
     border-right: 2px solid var(--gold);
 }
 
-.book2 {
+.details .date {
+    font-size: large;
+}
+
+.book {
     padding-left: 20px;
 }
 
-.book2 h2 {
+.book h2 {
     color: var(--red);
+    margin-top: 12px;
 }
-.book2 img {
+
+.book img {
     display: block;
     margin: 0 auto;
     max-width: 200px;
     height: auto;
+    padding-top: 18px;
+    padding-bottom: 18px;
 }
 
 .skiptocontent a {
