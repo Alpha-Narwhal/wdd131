@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Truculenta:opsz,wght@12..72,100..900&display=swap');
+
+body {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+header img {
+    max-width: 100px;
+    max-height: auto;
+}
+
+.header {
+    border-bottom: 2px solid grey;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.header-top {
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    margin-top: 40px;
+    font-size: 30px;
+    font-family: "Truculenta", Arial, Helvetica, sans-serif;
+}
+
+.search-form {
+    display: inline-flex;
+    justify-content: center;
+    width: 80%; 
+    max-width: 600px; 
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.search-form input[type="text"] {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 1.1rem;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.search-form button {
+    padding: 10px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+footer img {
+    max-width: 50px;
+    max-height: auto;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.recipe {
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 20px;
+}
+
+.recipe img {
+    max-width: 300px;
+    max-height: auto;
+}
+
+.recipe-tags span {
+    border: 2px solid black;
+    padding: 6px;
+    font-weight: 600;
+}
+
+.recipe-title {
+        font-family: "Truculenta", Arial, Helvetica, sans-serif;
+        color: #4d9dcf;
+        font-size: 28px;
+}
