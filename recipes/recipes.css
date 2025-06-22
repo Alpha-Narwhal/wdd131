@@ -98,12 +98,52 @@ footer > a {
 }
 
 
-@media (min-width: 600px) {
+@media (min-width: 600px) and (max-width: 960px) {
     .recipe-img {
         float: left;
         margin-right: 20px;
         max-width: 300px;
+    }
 
+    .recipe {
+        max-width: 800px;
+
+    }
+
+    .recipe-tags {
+        white-space: nowrap;
+    }
+
+    .recipe-description {
+        display: block;
+    }
+
+    footer {
+        margin-bottom: 50px;
+    }
+
+    footer .social {
+        text-align: right;
+        margin-bottom: -55px;
+    }
+
+    footer > a {
+        display: block;
+        text-align: left;
+    }
+}
+
+@media (min-width: 960px) {
+    .recipe {
+        max-width: 800px;
+        margin: auto;
+        margin-top: 20px;
+    }
+
+    .recipe-img {
+        float: left;
+        margin-right: 20px;
+        max-width: 300px;
     }
 
     .recipe-tags {
