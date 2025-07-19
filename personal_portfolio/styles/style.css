@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root {
+    --primary-color: #9c82f3  ;
+    --secondary-color: #dabfff ;
+    --accent1-color: #4f518c;
+    --accent2-color: black;
+  
+    --heading-font: "Playfair Display", sans-serif;
+    --paragraph-font: "Playfair Display", sans-serif;
+}  
+
+body {
+    font-family: "Playfair Display", sans-serif;
+}
+
+header {
+    background-color: var(--primary-color);
+    font-family: 'Agdasima', Arial, sans-serif;
+    display: grid;
+    grid-template-columns: 150px auto;
+    font-size: large;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover {
+    background-color: var(--accent2-color);
+    color: var(--secondary-color);
+}
+
+
+.logo {
+    width: 80px;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+#home-head {
+    text-align: center;
+}
+
+#prof-pic {
+    height: 350px;
+    width: 350px;
+    float: right;
+    margin-left: 10%;
+}
+
+.intro {
+    margin: 5%;
+    font-size: larger;
+}
+
+.stuff {
+    margin-left: 10%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-columns: 55% 10% 25%;
+}
+
+#skills {
+    width: 100%;
+    grid-column: 1;
+}
+
+#pages {
+    width: 100%;
+    grid-column: 3;
+    text-align: center;
+}
+
+footer {
+    background-color: var(--primary-color);
+    padding: 25px 50px;
+    margin-top: 50px;
+    color: var(--accent2-color);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Agdasima', Arial, sans-serif;
+}
+
+footer a {
+    color: var(--accent2-color);
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+#res-but {
+    width: 50%;
+    height: 45px;
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
+    border-radius: 10px;
+    border: 2px solid black; 
+    padding: 14px 28px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#res-but:hover {
+    background-color: var(--accent1-color); 
+    color: white; 
+}
+#pro-but {
+    width: 50%;
+    height: 45px;
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
+    border-radius: 10px;
+    border: 2px solid black; 
+    padding: 14px 28px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#pro-but:hover {
+    background-color: var(--accent1-color);
+    color: white;
+}
